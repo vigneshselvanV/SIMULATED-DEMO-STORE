@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment and sensitive keys
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Vercel deployment cache and artifacts
+.vercel/
+**/.vercel/
+
+# Production frontend build output
+dist/
+**/dist/
+
+# SQLite WAL and lock files (keep the primary shopsphere.db template)
+*.db-wal
+*.db-shm
+*.db-journal
+**/*.db-wal
+**/*.db-shm
+**/*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
