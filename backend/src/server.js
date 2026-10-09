@@ -29,3 +29,6 @@ process.on('SIGTERM', () => {
     console.log('Server process terminated.');
   });
 });
+
+export { app };
+export default app;
